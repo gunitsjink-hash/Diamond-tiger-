@@ -1,0 +1,16 @@
+{
+  "name": "Diamond Tiger - Hold & Win",
+  "short_name": "Diamond Tiger",
+  "description": "A fun, self-contained slot game with Free Spins and Hold & Win features.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a0710",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIHJ4PSI4MCIgZmlsbD0iI2Q0YWYzNyIvPjx0ZXh0IHg9IjI1NiIgeT0iMzIwIiBmb250LXNpemU9IjE4MCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMwYzBhMDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlQ8L3RleHQ+PC9zdmc+",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
