@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Diamond Tiger • Hold & Win</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cabinet">
+  <div class="top-bar">
+    <div></div>
+    <button class="fullscreen-btn" id="fsBtn" title="Toggle Fullscreen">⛶ Fullscreen</button>
+  </div>
+
+  <!-- Jackpot Ladder -->
+  <div class="jackpot-ladder">
+    <div class="jp-pill grand">
+      <div class="jp-name">Grand</div>
+      <div class="jp-amt">1000×</div>
+    </div>
+    <div class="jp-pill major">
+      <div class="jp-name">Major</div>
+      <div class="jp-amt">250×</div>
+    </div>
+    <div class="crest">
+      <div class="crest-badge"><img id="crestCoin" alt="Diamond Tiger" /></div>
+      <h1>DIAMOND TIGER</h1>
+      <div class="sub">Hold &amp; Win</div>
+    </div>
+    <div class="jp-pill mini">
+      <div class="jp-name">Mini</div>
+      <div class="jp-amt">50×</div>
+    </div>
+  </div>
+
+  <!-- Status -->
+  <div class="statusbar">
+    <div class="stat">
+      <div class="label">Credits</div>
+      <div class="value" id="balanceVal">1,000</div>
+    </div>
+    <div class="stat divider">
+      <div class="label">Bet</div>
+      <div class="value" id="betValTop">10</div>
+    </div>
+    <div class="stat divider">
+      <div class="label">Last Win</div>
+      <div class="value" id="lastWinVal">0</div>
+    </div>
+  </div>
+
+  <!-- Reels -->
+  <div class="frame" id="frame">
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <div class="banner" id="banner">Place your bet and spin the reels.</div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="icon-btn" id="turboBtn" title="Turbo: faster spins">⚡</button>
+    <div class="bet-control">
+      <button id="betMinus">−</button>
+      <div>
+        <div class="bet-display" id="betDisplay">10</div>
+        <div class="bet-label">credits</div>
+      </div>
+      <button id="betPlus">+</button>
+    </div>
+    <button class="spin-btn" id="spinBtn">SPIN</button>
+    <button class="icon-btn" id="autoBtn" title="Autoplay 10 spins">🔁</button>
+  </div>
+
+  <div class="meta-row">
+    <span>🎰 ×3 → Free Spins</span>
+    <span>🪙 ×6 → Hold &amp; Win</span>
+    <span class="hot">Grand 1000×</span>
+  </div>
+
+  <footer>
+    For entertainment only — play credits have no real-world value and cannot be redeemed or withdrawn.
+  </footer>
+</div>
+
+<!-- Coin burst layer -->
+<div class="coin-burst-layer" id="coinBurstLayer"></div>
+
+<!-- Feature overlay -->
+<div class="overlay" id="overlay">
+  <div class="overlay-content">
+    <h2 id="overlayTitle" class="gold-h2">FREE SPINS</h2>
+    <p id="overlaySubtitle">8 free spins with a 2× multiplier are about to begin.</p>
+    <button class="overlay-btn" id="overlayBtn">Begin</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
